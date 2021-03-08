@@ -1,1 +1,55 @@
 
+body {
+        background: rgb(255,209,96);
+        background: linear-gradient(90deg, rgba(255,209,96,1) 77%, rgba(204,193,167,1) 100%);
+      }
+
+      section {
+        padding:25px;
+        border: 10px solid #180BBE;
+        align-content: center;
+      }
+
+      nav{
+        border: 10px solid #180BBE;
+      }
+
+      h1, h2{
+        background: #E20C0D;
+        color: white;
+        text-align: center;
+        position: relative;
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        box-shadow: 
+		      inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		      inset 0 0 5px rgba(53,86,129, 0.5),
+		      inset -285px 0 35px #E20C0D;
+        font-weight: 600;
+        
+      }
+
+      p, em, ol, ul{
+        color: #180BBE;
+        font-family: 'Garamond', 'Georgia', serif;
+      }
+
+      .elem{
+        position: relative;
+        text-align: center;
+      }
+
+      .elem iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .elem audio{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .header{
+        
+      }
